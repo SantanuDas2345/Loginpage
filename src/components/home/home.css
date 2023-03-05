@@ -1,0 +1,25 @@
+/* body {
+    background-image: url('https://th.bing.com/th/id/OIP.1WYz-TOaUIpWOHgg6LRGxQHaEo?pid=ImgDet&rs=1');
+} */
+
+.navbar {
+    width: 90%;
+    margin:auto;
+    opacity: 0.7;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.icons {
+    font-size: 20px;
+    position: relative;
+    bottom: 3px;
+}
+.maincarousel {
+    width: 90%;
+    max-height: fit-content;
+    position: relative;
+    left: 76px;    
+}
+.maincarousel1 {
+    height: 400px;
+}

@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,400;1,500;1,600&display=swap');
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+
+/* button */
+.password:hover {
+    background: linear-gradient(#7303c0, #ec38bc, #fdeff9);
+    width: 10rem;
+}
+
+.authcode:hover {
+    background: linear-gradient(#C33764, #1D2671);
+    width: 10rem;
+    color: white;
+}
+/* button */
+
+/* form details */
+.parentform {
+    max-height:fit-content;
+}
+
+.formdetails {
+    /* background-image: linear-gradient(90deg, rgba(58,18,96,0.7512254901960784) 0%, rgba(9,51,121,0.44870448179271705) 55%, rgba(19,97,87,1) 100%); */
+    min-height: 45vh;
+    padding: 1rem;
+    filter: drop-shadow(19px 20px 6px #1a1212a0);
+    /* border-radius: 2rem; */
+    opacity: 0.7;
+}
+
+.form-control {
+    width: 76%;
+    margin: auto;
+}
+/* form details */
+
+/* login heading */
+
+h1 {
+    left: 40%;
+    top: 40px;
+    font-family: Rubik;
+    opacity: 0.8;
+}
+
+/* login heading */
+
+
+/* Login button */
+.submitdiv {
+    width: 100%;
+    /* margin: auto; */
+    margin: top;
+    display: grid;
+    place-items: center;
+    height: 20px;
+}
+.loginbutton {
+    margin-top: auto;
+}
+.loginbutton:hover {
+    cursor:not-allowed
+}
+
+.passwrd {
+    margin-bottom: 5px;
+    border-radius: 0.51rem;
+}
+
+.authcde {
+    margin-bottom: 5px;
+    border-radius: 0.5rem;
+}
+/* Login button */
+
+.backgroundimage {   
+    background-image: url(https://i0.wp.com/demishia.com/wp-content/uploads/2018/04/admin-login-background-images-8.jpg?ssl=1);
+     /* opacity: 0.7 !important; */
+    width: 100vw;
+    height: 100vh;
+    /* filter: blur(1px) */
+    background-size: cover;
+    overflow: hidden;
+}
