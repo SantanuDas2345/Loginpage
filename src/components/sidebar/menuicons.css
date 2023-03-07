@@ -1,0 +1,19 @@
+.menulist {
+    flex-direction: column;
+    list-style: none;
+    height: 100vh;
+    position: relative;
+    top: 2vh;
+
+}
+
+.home,
+.ceo,
+.unit {
+    padding: 5%;
+}
+.home,
+.ceo,
+.unit:hover {
+    cursor: pointer;
+}
